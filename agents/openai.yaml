@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Orchestrator"
+  short_description: "Coordinate staged, agent-led software feature delivery."
+  default_prompt: "Use $feature-orchestrator to deliver this feature in staged agent handoffs."
