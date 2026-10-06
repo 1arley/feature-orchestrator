@@ -1,5 +1,7 @@
 # feature-orchestrator
 
+[![skills.sh](https://skills.sh/b/1arley/feature-orchestrator)](https://skills.sh/1arley/feature-orchestrator)
+
 Agent skill to take a software feature from discovery to delivery through staged
 subagent handoffs. The main agent is the orchestrator: it keeps the accepted state,
 picks the next task, prepares the input context, checks the result, and talks to the
@@ -9,8 +11,15 @@ For a trivial, self-contained change, work directly instead of applying this pro
 
 ## Install
 
-**Claude Code / OpenCode** — clone and point the agent at the folder, or copy it into
-your skills directory:
+Install with the [`skills`](https://www.skills.sh/docs) CLI — it works with Claude Code,
+OpenCode, Cursor, Codex, Copilot, Windsurf and other agents:
+
+```bash
+npx skills add 1arley/feature-orchestrator
+```
+
+**Manual install** — clone and point your agent at the folder, or copy it into your
+skills directory:
 
 ```bash
 git clone https://github.com/1arley/feature-orchestrator
